@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/js_101_tina3008/favicon.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="learn project">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="preconnect"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+  />
+    <title>project-group-3</title>
+    
+    <script type="module" crossorigin src="/js_101_tina3008/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_101_tina3008/assets/vendor-c111460d.js">
+    <link rel="stylesheet" href="/js_101_tina3008/assets/vendor-2aba1e47.css">
+    <link rel="stylesheet" href="/js_101_tina3008/assets/index-0f1f285d.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="header-container">
+    <div class="header-logo">
+      <a href="./index.html"
+        ><img
+          class="header-img"
+          srcset="/js_101_tina3008/assets/header@2x-82c0f4f8.jpg 2x"
+          src="/js_101_tina3008/assets/header@1x-b59d8685.jpg"
+          alt="logo"
+        />
+      </a>
+      <p class="logo-paragraph">jefferson*</p>
+    </div>
+
+    <div class="menu" id="profile">
+      <a href="#" class="menu-list" id="profile-link">Menu</a>
+      <div class="menu-dropdown" id="dropdown">
+        <ul>
+          <li><a class="menu-link-mobile" href="#about-me">About me</a></li>
+          <li><a class="menu-link-mobile" href="#benefit-link">Benefits</a></li>
+          <li><a class="menu-link-mobile" href="#projects">Projects</a></li>
+          <li><a class="menu-link-mobile" href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="header-orders-main">
+      <a href="#work-together-section" class="header-button" aria-label="burger"
+        >Order the project</a
+      >
+    </div>
+
+    <button class="header-mobile-menu-open-btn" type="button" id="burger">
+      <svg
+        class="burger_icon"
+
+    
+        width="28"
+        height="28"
+        aria-label="icon Expertise"
+      >
+        <use href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-menu-05"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+
+
+    <main>
+      <section class="hero" id="hero">
+  <div class="hero-cower">
+    
+   <div class="title-cover">
+    <h1 class="hero-title">
+      Hello.<br />I’m Fullstack developer Lloyd Jefferson.
+    </h1>
+   </div>
+
+    <div class sosial-cover>
+      <ul class="hero-top-menu">
+        <li class="hero-menu-item">
+          <a href="https://www.instagram.com/goitclub/" target="_blank">IG</a>
+        </li>
+        <li class="hero-menu-item">
+          <a href="https://www.facebook.com/goITclub/" target="_blank">FB</a>
+        </li>
+        <li class="hero-menu-item">
+          <a href="https://www.youtube.com/c/GoIT" target="_blank">YT</a>
+        </li>
+        <li class="hero-menu-item">
+          <a href="https://github.com/tina3008/project-group-3" target="_blank"
+            >GH</a
+          >
+        </li>
+        <li class="hero-menu-item-email hero-menu-item">
+          <a href="mailto:example@example.com">lloydjefferson@gmail.com</a>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+  
+</section>
+
+      
+<section class="about-me-section" id="about-me">
+  <div class="about-me-container-section">
+    <h2 class="section-caption visually-hidden">Abouts me</h2>
+    <div class="about-me-description-and-photo-wrapper">
+      <div class="about-me-description">
+        <div class="about-me-description-wrapper">
+          <p class="about-me-description-text">
+            I work with people all over the world to create impressive and
+            <span class="accent-red">functional</span>
+            <span class="accent-color">websites</span> that reflect each
+            client's unique personality.
+          </p>
+        </div>
+      </div>
+      <div class="tumb-picture">
+        <picture class="about-me-picture">
+          <source
+            srcset="/js_101_tina3008/assets/about-me-photo-desktop-2c2ada06.jpg 1x, /js_101_tina3008/assets/about-me-photo-desktop@2-9e85bd51.jpg 2x"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/js_101_tina3008/assets/about-me-photo-tablet-502cf8d8.jpg 1x, /js_101_tina3008/assets/about-me-photo-tablet@2-0d5d5cd8.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/js_101_tina3008/assets/about-me-photo-mobile-min-6bd719dd.jpg 1x, /js_101_tina3008/assets/about-me-photo@2-mobile-dff1f0b1.jpg 2x"
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/js_101_tina3008/assets/about-me-photo-mobile-min-6bd719dd.jpg"
+            alt="Yacht image"
+          />
+        </picture>
+      </div>
+    </div>
+    <ul class="accordion-container">
+      <li class="ac ac-about-me">
+        <div class="about-me-item-caption-and-button-wrapper">
+          <h3 class="ac-header ac-header-about-me">About me</h3>
+          <button class="ac-trigger ac-trigger-about-me">
+            <svg class="icon-about-me">
+              <use
+                href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-arrow-down"
+              ></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <div class="about-me-accordion-text-wrapper">
+            <p class="ac-text ac-text-about-me">
+              I am Lloyd Jefferson, a talented programmer with extensive
+              expertise in software development. I have an understanding of
+              different programming languages and technologies, always ready to
+              improve my skills. I always follow the latest trends and look for
+              unconventional, creative solutions to problems. I have a high
+              level of analytical skills and am able to effectively solve even
+              the most difficult tasks encountered on the way.
+            </p>
+            <p class="ac-text ac-text-about-me">
+              Able to work both independently and in a team. I can effectively
+              cooperate with colleagues, exchanging ideas and finding optimal
+              solutions. Professional maturity allows you to calmly cope with
+              challenges and stressful situations, while maintaining a high
+              quality of work.I am always looking for opportunities for
+              self-improvement. I actively study new technologies and practices
+              to stay abreast of the latest innovations. I have a strong
+              understanding of various programming languages, frameworks and
+              architectural concepts that allow me to create efficient and
+              scalable software.
+            </p>
+          </div>
+        </div>
+        <div class="line-between-accordion-item"></div>
+      </li>
+      <li class="ac ac-about-me">
+        <div class="about-me-item-caption-and-button-wrapper">
+          <h3 class="ac-header ac-header-about-me">Role</h3>
+          <button class="ac-trigger ac-trigger-about-me">
+            <svg class="icon-about-me">
+              <use
+                href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-arrow-up"
+              ></use>
+            </svg>
+          </button>
+        </div>
+
+        <div class="ac-panel">
+          <ul class="about-me-accordion-pannel-list">
+            <li class="about-me-accordion-pannel-item">
+              <p class="ac-text ac-text-about-me">Frontend development</p>
+            </li>
+            <li class="about-me-accordion-pannel-item">
+              <p class="ac-text ac-text-about-me">HeadlessCMS,Wordpress</p>
+            </li>
+            <li class="about-me-accordion-pannel-item">
+              <p class="ac-text ac-text-about-me">Blender(enjoy)</p>
+            </li>
+          </ul>
+        </div>
+        <div class="line-between-accordion-item"></div>
+      </li>
+      <li class="ac ac-about-me">
+        <div class="about-me-item-caption-and-button-wrapper">
+          <h3 class="ac-header ac-header-about-me">Education</h3>
+          <button class="ac-trigger ac-trigger-about-me">
+            <svg class="icon-about-me">
+              <use
+                href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-arrow-up"
+              ></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel">
+          <ul class="about-me-accordion-pannel-list">
+            <li class="about-me-accordion-pannel-item">
+              <p class="ac-text ac-text-about-me">
+                2018 - 2019 / Frontend Development Diploma, GoIT IT School, New
+                York
+              </p>
+            </li>
+            <li class="about-me-accordion-pannel-item">
+              <p class="ac-text ac-text-about-me">
+                2019 - 2020 / Advanced Web Development Certificate, GoIT IT
+                School, New York
+              </p>
+            </li>
+            <li class="about-me-accordion-pannel-item">
+              <p class="ac-text ac-text-about-me">
+                2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="line-between-accordion-item"></div>
+      </li>
+    </ul>
+    <div class="swipper-and-button-wraper">
+      <div class="swiper">
+        <ul class="swiper-wrapper list-swiper-abowt">
+          <li class="swiper-slide list-item-about">
+            <div class="swiper-slide-item">
+              <p class="swiper-slide-item-text">HTML/CSS</p>
+            </div>
+          </li>
+          <li class="swiper-slide list-item-about">
+            <div class="swiper-slide-item">
+              <p class="swiper-slide-item-text">JavaScript</p>
+            </div>
+          </li>
+          <li class="swiper-slide list-item-about">
+            <div class="swiper-slide-item">
+              <p class="swiper-slide-item-text">React</p>
+            </div>
+          </li>
+          <li class="swiper-slide list-item-about">
+            <div class="swiper-slide-item">
+              <p class="swiper-slide-item-text">Node.js</p>
+            </div>
+          </li>
+          <li class="swiper-slide list-item-about">
+            <div class="swiper-slide-item">
+              <p class="swiper-slide-item-text">React Native</p>
+            </div>
+          </li>
+          <li class="swiper-slide list-item-about">
+            <div class="swiper-slide-item">
+              <p class="swiper-slide-item-text">Soft skills</p>
+            </div>
+          </li>
+          <li class="swiper-slide list-item-about">
+            <div class="swiper-slide-item">
+              <p class="swiper-slide-item-text">Git</p>
+            </div>
+          </li>
+          <li class="swiper-slide list-item-about">
+            <div class="swiper-slide-item">
+              <p class="swiper-slide-item-text">English</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button type="button" class="swiper-next-button">
+        <svg class="icon-next-button" width="28" height="28">
+          <use
+            href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-right"
+          ></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+      <section class="benefit_section" id="benefit-link">
+  <div class="benefit-wripper">
+    <h2 class="benefit_main_head">BENEFITS OF WORKING WITH ME</h2>
+    <div class="benefit-div">
+      <ul class="benefits">
+        <li class="benefit_card">
+          <div class="benefit_img_block">
+            <svg
+              class="benefit_icon"
+              width="48"
+              height="48"
+              aria-label="icon Expertise"
+            >
+              <use href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-body1"></use>
+            </svg>
+          </div>
+
+          <h3 class="benefit_title">Expertise</h3>
+          <p class="benefit_txt">
+            As a highly experienced developer, I have deep knowledge of
+            programming and website development.
+          </p>
+        </li>
+
+        <li class="benefit_card">
+          <div class="benefit_img_block">
+            <svg
+              class="benefit_icon"
+              width="48"
+              height="48"
+              aria-label="icon Communication"
+            >
+              <use href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-round2"></use>
+            </svg>
+          </div>
+
+          <h3 class="benefit_title">Communication</h3>
+          <p class="benefit_txt">
+            Understanding your needs and wants is my priority and I am always
+            open to discussions and corrections.
+          </p>
+        </li>
+
+        <li class="benefit_card">
+          <div class="benefit_img_block">
+            <svg
+              class="benefit_icon"
+              width="48"
+              height="48"
+              aria-label="icon Art"
+            >
+              <use href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-pen3"></use>
+            </svg>
+          </div>
+
+          <h3 class="benefit_title">Art</h3>
+          <p class="benefit_txt">
+            Thanks to my creative nature, I am ready to accept challenges and
+            help you bring your ideas to life.
+          </p>
+        </li>
+
+        <li class="benefit_card">
+          <div class="benefit_img_block">
+            <svg
+              class="benefit_icon"
+              width="48"
+              height="48"
+              aria-label="icon benefit"
+            >
+              <use href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-clock4"></use>
+            </svg>
+          </div>
+
+          <h3 class="benefit_title">Urgent execution</h3>
+          <p class="benefit_txt">
+            I understand how important time is to you. Ready to work quickly and
+            efficiently, without reducing the quality of work.
+          </p>
+        </li>
+      </ul>
+
+      <div class="benefit-footer">
+        <a href="#work-together-section" class="benefit-footer-link"
+          >Order the project</a
+        >
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="projects-section" id="projects">
+  <h2 class="projects-title">Projects</h2>
+  <div class="swiper">
+    <ul class="projects-list swiper-wrapper">
+      <li class="projects-item swiper-slide">
+        <div class="projects-info-wrapper">
+          <div class="projects-skills">
+            <div class="projects-skill"><p>#react</p></div>
+            <div class="projects-skill"><p>#js</p></div>
+            <div class="projects-skill"><p>#node js</p></div>
+            <div class="projects-skill"><p>#git</p></div>
+          </div>
+          <h3>Programming Across Borders: Ideas, Technologies, Innovations</h3>
+          <a
+            class="projects-link"
+            href="https://github.com/tina3008/project-group-3"
+            target="_blank"
+            >See project</a
+          >
+        </div>
+
+        <div class="projects-img-wrapper">
+          <picture>
+            <source
+              srcset="/js_101_tina3008/assets/read-journey-tab-desk-2473869a.jpg 1x, /js_101_tina3008/assets/read-journey-tab-desk@2x-c047f592.jpg 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="/js_101_tina3008/assets/read-journey-938ddb3d.jpg 1x, /js_101_tina3008/assets/read-journey@2x-7a34f649.jpg 2x"
+              media="(max-width: 767px)"
+            />
+            <img
+              class="projects-img"
+              src="/js_101_tina3008/assets/read-journey-938ddb3d.jpg"
+              alt="Read journey project image"
+            />
+          </picture>
+        </div>
+      </li>
+      <li class="projects-item swiper-slide">
+        <div class="projects-info-wrapper">
+          <div class="projects-skills">
+            <div class="projects-skill"><p>#react</p></div>
+            <div class="projects-skill"><p>#js</p></div>
+            <div class="projects-skill"><p>#node js</p></div>
+            <div class="projects-skill"><p>#git</p></div>
+          </div>
+          <h3>Programming Across Borders: Ideas, Technologies, Innovations</h3>
+          <a
+            class="projects-link"
+            href="https://github.com/tina3008/project-group-3"
+            target="_blank"
+            >See project</a
+          >
+        </div>
+        <div class="projects-img-wrapper">
+          <picture>
+            <source
+              srcset="/js_101_tina3008/assets/petlove-tab-desk-5e877914.jpg 1x, /js_101_tina3008/assets/petlove-tab-desk@2x-540eb4f9.jpg 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="/js_101_tina3008/assets/petlove-546f382e.jpg 1x, /js_101_tina3008/assets/petlove@2x-b8ad9916.jpg 2x"
+              media="(max-width: 767px)"
+            />
+            <img
+              class="projects-img"
+              src="/js_101_tina3008/assets/petlove-546f382e.jpg"
+              alt="Petlove project image"
+            />
+          </picture>
+        </div>
+      </li>
+      <li class="projects-item swiper-slide">
+        <div class="projects-info-wrapper">
+          <div class="projects-skills">
+            <div class="projects-skill"><p>#react</p></div>
+            <div class="projects-skill"><p>#js</p></div>
+            <div class="projects-skill"><p>#node js</p></div>
+            <div class="projects-skill"><p>#git</p></div>
+          </div>
+          <h3>Programming Across Borders: Ideas, Technologies, Innovations</h3>
+          <a
+            class="projects-link"
+            href="https://github.com/tina3008/project-group-3"
+            target="_blank"
+            >See project</a
+          >
+        </div>
+        <div class="projects-img-wrapper">
+          <picture>
+            <source
+              srcset="/js_101_tina3008/assets/vocab-builder-tab-desk-36eab809.jpg 1x, /js_101_tina3008/assets/vocab-builder-tab-desk@2x-5096b595.jpg 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="/js_101_tina3008/assets/vocab-builder-9036060c.jpg 1x, /js_101_tina3008/assets/vocab-builder@2x-67be4566.jpg 2x"
+              media="(max-width: 767px)"
+            />
+            <img
+              class="projects-img"
+              src="/js_101_tina3008/assets/vocab-builder-9036060c.jpg"
+              alt="VocabBuilder project image"
+            />
+          </picture>
+        </div>
+      </li>
+    </ul>
+    <div class="btn-container">
+      <button class="prev-btn" type="button" aria-label="arrow">
+        <svg
+          class="arrow-left-icon"
+          width="24"
+          height="24"
+          aria-label="arrow left"
+        >
+          <use
+            href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-right"
+          />
+        </svg>
+      </button>
+      <button class="next-btn" type="button" aria-label="arrow">
+        <svg
+          class="arrow-right-icon"
+          width="24"
+          height="24"
+          aria-label="arrow right"
+        >
+          <use
+            href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-right"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+      <section class="faq" id="faq">
+  <div class="faq-container">
+    <h2 class="faq-title">FAQ</h2>
+    <ul class="faq-list-accordion-container">
+      <li class="ac faq-item">
+        <div class="faq-content-div-accordion">
+          <h3 class="ac-header faq-header">
+            What programming languages are most often used in your project?
+          </h3>
+          <button type="button" class="ac-trigger faq-btn" aria-label="faq">
+            <svg class="faq-content-div-svg">
+              <use href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel faq-panel">
+          <p class="ac-text faq-text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </li>
+      <li class="ac s-item faq-item">
+        <div class="faq-content-div-accordion">
+          <h3 class="ac-header faq-header">
+            What are the deadlines for the project?
+          </h3>
+          <button type="button" class="ac-trigger faq-btn">
+            <svg class="faq-content-div-svg">
+              <use href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel faq-panel">
+          <p class="ac-text faq-text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </li>
+      <li class="ac faq-item">
+        <div class="faq-content-div-accordion">
+          <h3 class="ac-header faq-header">
+            What payment methods do you accept?
+          </h3>
+          <button type="button" class="ac-trigger faq-btn">
+            <svg class="faq-content-div-svg">
+              <use href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel faq-panel">
+          <p class="ac-text faq-text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </li>
+      <li class="ac faq-item">
+        <div class="faq-content-div-accordion">
+          <h3 class="ac-header faq-header">How can I contact you?</h3>
+          <button type="button" class="ac-trigger faq-btn">
+            <svg class="faq-content-div-svg">
+              <use href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel faq-panel">
+          <p class="ac-text faq-text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </li>
+      <li class="ac ff-item faq-item">
+        <div class="faq-content-div-accordion">
+          <h3 class="ac-header faq-header">
+            Do you provide advice or support?
+          </h3>
+          <button type="button" class="ac-trigger faq-btn">
+            <svg class="faq-content-div-svg">
+              <use href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel faq-panel">
+          <p class="ac-text faq-text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </li>
+      <li class="ac l-item faq-item">
+        <div class="faq-content-div-accordion">
+          <h3 class="ac-header faq-header">
+            What does the process of developing a software product look like
+            from idea to implementation?
+          </h3>
+          <button type="button" class="ac-trigger faq-btn">
+            <svg class="faq-content-div-svg">
+              <use href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="ac-panel faq-panel">
+          <p class="ac-text faq-text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="covers" id="id-covers">
+  <div class="covers-container">
+    <h2 class="visually-hidden">Covers</h2>
+
+    <div class="image-box">
+      <div class="image-box-string">
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project2@2x-a46db3c8.jpg 2x"
+            src="/js_101_tina3008/assets/project2-05a42d66.jpg"
+            alt="project2"
+          />
+        </div>
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project6@2x-d1b61a9e.jpg 2x"
+            src="/js_101_tina3008/assets/project6-64a37946.jpg"
+            alt="project6"
+          />
+        </div>
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project1@2x-24e3d7e8.jpg 2x"
+            src="/js_101_tina3008/assets/project1-4576df46.jpg"
+            alt="project1"
+          />
+        </div>
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project10@2x-d20734b7.jpg 2x"
+            src="/js_101_tina3008/assets/project10-38fc4818.jpg"
+            alt="project10"
+          />
+        </div>
+      </div>
+      <div class="image-box-string">
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project2@2x-a46db3c8.jpg 2x"
+            src="/js_101_tina3008/assets/project2-05a42d66.jpg"
+            alt="project2"
+          />
+        </div>
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project9@2x-33174f2d.jpg 2x"
+            src="/js_101_tina3008/assets/project9-14676b6a.jpg"
+            alt="project9"
+          />
+        </div>
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project3@2x-035b30ae.jpg 2x"
+            src="/js_101_tina3008/assets/project3-e38dcd81.jpg"
+            alt="project3"
+          />
+        </div>
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project1@2x-24e3d7e8.jpg 2x"
+            src="/js_101_tina3008/assets/project1-4576df46.jpg"
+            alt="project1"
+          />
+        </div>
+      </div>
+      <div class="image-box-string">
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project10@2x-d20734b7.jpg 2x"
+            src="/js_101_tina3008/assets/project10-38fc4818.jpg"
+            alt="project10"
+          />
+        </div>
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project4@2x-29f18e00.jpg 2x"
+            src="/js_101_tina3008/assets/project4-061250e0.jpg"
+            alt="project4"
+          />
+        </div>
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project2@2x-a46db3c8.jpg 2x"
+            src="/js_101_tina3008/assets/project2-05a42d66.jpg"
+            alt="project2"
+          />
+        </div>
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project6@2x-d1b61a9e.jpg 2x"
+            src="/js_101_tina3008/assets/project6-64a37946.jpg"
+            alt="project6"
+          />
+        </div>
+      </div>
+      <div class="image-box-string">
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project7@2x-6cceb46d.jpg 2x"
+            src="/js_101_tina3008/assets/project7-c098bc77.jpg"
+            alt="project7"
+          />
+        </div>
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project8@2x-b8ebdc2f.jpg 2x"
+            src="/js_101_tina3008/assets/project8-f2d7b54f.jpg"
+            alt="project8"
+          />
+        </div>
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project9@2x-33174f2d.jpg 2x"
+            src="/js_101_tina3008/assets/project9-14676b6a.jpg"
+            alt="project9"
+          />
+        </div>
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project4@2x-29f18e00.jpg 2x"
+            src="/js_101_tina3008/assets/project4-061250e0.jpg"
+            alt="project4"
+          />
+        </div>
+      </div>
+      <div class="image-box-string">
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project10@2x-d20734b7.jpg 2x"
+            src="/js_101_tina3008/assets/project10-38fc4818.jpg"
+            alt="project10"
+          />
+        </div>
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project2@2x-a46db3c8.jpg 2x"
+            src="/js_101_tina3008/assets/project2-05a42d66.jpg"
+            alt="project2"
+          />
+        </div>
+        <div class="image-box-item">
+          <img
+            srcset="/js_101_tina3008/assets/project7@2x-6cceb46d.jpg 2x"
+            src="/js_101_tina3008/assets/project7-c098bc77.jpg"
+            alt="project7"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="reviews" id="reviews">
+  <div class="container-wrapper">
+    <div class="container-header">
+      <h2 class="reviews-header">REVIEWS</h2>
+    </div>
+
+    <div class="swiper swiper-one">
+      <ul class="reviews-list swiper-wrapper"></ul>
+    </div>
+    <div class="arrow-container">
+      <button
+        class="button-prev button-prev-svg"
+        type="button"
+        aria-label="Previos comment"
+      >
+        <svg class="arrow-swiper" width="24" height="24">
+          <use
+            xlink:href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-arrow-narrow-right"
+          />
+        </svg>
+      </button>
+
+      <button
+        class="button-next button-next-svg"
+        type="button"
+        aria-label="Next comment"
+      >
+        <svg class="arrow-swiper" width="24" height="24">
+          <use
+            xlink:href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-arrow-narrow-rightarrrR"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <section class="footer-section" id="work-together-section">
+  <div class="footer-container">
+    <div class="footer-heading">
+      <picture>
+        <source
+          srcset="data:image/png;base64,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 , /js_101_tina3008/assets/profile-desktop@2x-dcc792e1.png 2x"
+          media="(min-width: 768px)"
+          width="70"
+          height="70"
+        />
+        <source
+          srcset="data:image/png;base64,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 , /js_101_tina3008/assets/profile-mob@2x-76d0e1c2.png 2x"
+          media="(max-width: 767px)"
+          width="44"
+          height="44"
+        />
+        <img
+          class="footer-image"
+          src="data:image/png;base64,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"
+          alt="Profile photo"
+          width="70"
+          height="70"
+        />
+      </picture>
+      <h2 class="footer-title">
+        <span class="half-title-span" style="padding-left: 52px"
+          >Let's <span class="footer-span">work</span></span
+        >
+        <span> together</span>
+      </h2>
+    </div>
+    <form class="footer-form" id="footer-form">
+      <div class="footer-input-box">
+        <label for="user-email">
+          <input
+            class="footer-input footer-email"
+            id="user-email"
+            name="user-email"
+            type="email"
+            pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+            placeholder="clients@gmail.com"
+            required
+          />
+        </label>
+        <span class="validation-text"></span>
+      </div>
+      <label for="user-comment">
+        <input
+          class="footer-input footer-comment"
+          id="user-comment"
+          name="user-comment"
+          type="text"
+          placeholder="comments"
+          required
+        />
+      </label>
+      <button
+        class="footer-button"
+        type="submit"
+        id="send-button"
+        aria-label="send"
+      >
+        Send
+      </button>
+    </form>
+    <div class="footer-contacts">
+      <a class="footer-contacts-data" href="mailto:lloydjefferson@gmail.com"
+        >lloydjefferson@gmail.com</a
+      >
+      <a
+        class="footer-contacts-data footer-telephone"
+        href="tel:+380-11-1111-11-11"
+        >+380 11 1111 11 11</a
+      >
+    </div>
+  </div>
+</section>
+
+    <div class="backdrop click-js" id="modal-open">
+    <div class="modal-block">
+        <button type="button" class="modal-btn click-js" id="modalBtn" aria-label="closed">
+            <svg class="modal-btn-icon" width="22" height="22">               
+                <use href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-x"></use>                
+            </svg>
+        </button>
+        <div class="modal-text-box">
+            <h3 class="modal-title">Thank you for your interest in cooperation!</h3>
+            <p class="modal-text">The manager will contact you shortly to discuss further details and opportunities for cooperation. Please stay in touch.</p>
+        </div>
+    </div>
+</div>
+    
+<!-- ++++++++++++++++++++++++++++++++++ -->
+
+<div class="mobail-menu" id="mobail-menu">
+  <div class="mobail-content">
+    <button class="mobile-menu-close-btn" id="mobiail-btn" type="button" aria-label="closed">
+      <svg
+        class="icon-closed"
+        width="28"
+        height="28"
+        aria-label="close modal icon"
+      >
+        <use href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-x"></use>
+      </svg>
+    </button>
+
+    <nav class="mobile-menu-navigation">
+      <ul class="mobile-list">
+        <li class="mobile-menu-item menu-link-add-color">
+          <a class="menu-link-mobile" href="#about-me">About me</a>
+        </li>
+        <li class="mobile-menu-item menu-link-add-color">
+          <a class="menu-link-mobile" href="#benefit-link">Benefits</a>
+        </li>
+        <li class="mobile-menu-item menu-link-add-color">
+          <a class="menu-link-mobile" href="#projects">Projects</a>
+        </li>
+        <li class="mobile-menu-item menu-link-add-color">
+          <a class="menu-link-mobile" href="#faq">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="heder-footer">
+      <a href="#work-together-section" class="heder-footer-link"
+        >Order the project</a
+      >
+    </div>
+  </div>
+</div>
+
+    <button class="scroll-to-top" type="button" aria-label="scroll">
+  <svg width="24" height="24" class="icon-up-to-top">
+    <use href="/js_101_tina3008/assets/sprite-37be9e35.svg#icon-arrow-up"></use>
+  </svg>
+</button>
+
+
+    
+  </body>
+</html>
